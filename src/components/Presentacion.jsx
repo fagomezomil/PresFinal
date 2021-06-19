@@ -4,13 +4,13 @@ import Imagen1 from "../images/logogrupo.svg"
 import LogoRolling from "../images/logorolling.png"
 
 
-const PageOne = () => {
+const Presentacion = () => {
   return (
     <AbsoluteWrapper>
       <div className="container-fluid">
         <article className="row" style={{ backgroundColor: '#FFFFFF', height: '390px' }} >
-          <div className="col-7"></div>
-          <div className="col-5">
+          <div className="col-6"></div>
+          <div className="col-6">
           <img src={Imagen1} className="img-fluid"  alt="" style={{ maxWidth: '450px', paddingTop: '3rem' }} />
           </div>
          
@@ -23,17 +23,17 @@ const PageOne = () => {
       </div>
       <div className="container-fluid" style={{ backgroundColor: '#aaaaaa', height: '355px', width: '100%' }}>
         <div className="row">
-          <div className="col-7"></div>
-          <div className="col-5">
-            <p className="titulo1">
+          <div className="col-6"></div>
+          <div className="col-6">
+            <p className="titulo1 pt-5">
               Presentación Proyecto Final
             </p>
             <p className="subtitulo1">
               Comisión i7
             </p>
-            <p className="nose">lorem</p>
-            <div>
-              <img src={LogoRolling} alt="" style={{ height: '100px' }} />
+            <p className="fecha">23 de junio de 2021</p>
+            <div className="">
+              <img src={LogoRolling} alt="" style={{ height: '70px' }} />
             </div>
           </div>
         </div>
@@ -44,4 +44,4 @@ const PageOne = () => {
   );
 };
 
-export default PageOne;
+export default Presentacion;

@@ -1,6 +1,6 @@
-import PageOne from "./PageOne";
-import PageTwo from "./PageTwo";
-import PageThree from "./PageThree";
-import PageFour from "./PageFour";
+import Presentacion from "./Presentacion";
+import Integrantes from "./Integrantes";
+import Proyecto from "./Proyecto";
+import Gracias from "./Gracias";
 import Navbah from "./Navbah";
-export { PageOne, PageTwo, PageThree, PageFour, Navbah };
+export { Presentacion, Integrantes, Proyecto, Gracias, Navbah };

@@ -3,7 +3,7 @@ import AbsoluteWrapper from "./AbsoluteWrapper";
 import Imagen1 from "../images/logogrupo.svg"
 import LogoRolling from "../images/logorolling.png"
 
-const PageTwo = () => {
+const Gracias = () => {
   return (
     <AbsoluteWrapper>
       <div className="container-fluid">
@@ -43,4 +43,4 @@ const PageTwo = () => {
   );
 };
 
-export default PageTwo;
+export default Gracias;
