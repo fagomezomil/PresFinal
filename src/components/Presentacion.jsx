@@ -8,10 +8,10 @@ const Presentacion = () => {
   return (
     <AbsoluteWrapper>
       <div className="container-fluid">
-        <article className="row" style={{ backgroundColor: '#FFFFFF', height: '390px' }} >
+        <article className="row" style={{ backgroundColor: '#FFFFFF', height: '500px' }} >
           <div className="col-6"></div>
           <div className="col-6">
-          <img src={Imagen1} className="img-fluid"  alt="" style={{ maxWidth: '450px', paddingTop: '3rem' }} />
+          <img src={Imagen1} className="img-fluid"  alt="" style={{ maxWidth: '450px', paddingTop: '7rem' }} />
           </div>
          
           {/* <div className="card p-1 m-1 shadow">
@@ -21,7 +21,7 @@ const Presentacion = () => {
           </div> */}
         </article>
       </div>
-      <div className="container-fluid" style={{ backgroundColor: '#aaaaaa', height: '355px', width: '100%' }}>
+      <div className="container-fluid" style={{ backgroundColor: '#aaaaaa', height: '485px', width: '100%' }}>
         <div className="row">
           <div className="col-6"></div>
           <div className="col-6">
